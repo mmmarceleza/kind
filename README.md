@@ -28,6 +28,7 @@ git clone https://github.com/mmmarceleza/kind.git
 Make sure to give execution permission on the script:
 
 ```
+cd kind
 chmod +x create-cluster.sh
 ```
 
