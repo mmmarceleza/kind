@@ -17,7 +17,7 @@
 - [Docker](https://docs.docker.com/engine/install/)
 - [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
 
-# How to user
+# How to use
 
 Clone this repository:
 
