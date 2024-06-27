@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # create the cluster
-kind create cluster --image kindest/node:v1.26.6 --config ~/git/mmmarceleza/kind/config.yaml
+kind create cluster --image kindest/node:v1.27.13 --config ~/git/mmmarceleza/kind/config.yaml
 
 # install metrics-server (https://github.com/kubernetes-sigs/metrics-server)
 helm upgrade --install metrics-server metrics-server -n metrics-server --create-namespace \
